@@ -1,0 +1,22 @@
+
+len=2: 1
+len=4: 4
+len=3: 7
+len=7: 8
+
+len = 6: {0, 6, 9}
+len = 5: {2, 3, 5}
+
+1) {4} kuuluu kokonaan {?} ja {?}.len == 6 		=> {?} = 9
+2) {1} kuuluu kokonaan {?} ja {?} kuuluu kokonaan {9}	=> {?} = 3
+3) {?} kuuluu kokonaan {9} ja {?} != {3} 		=> {?} = 5
+4) {?} len == 6 yksi on {?} osajoukko 			=> {?} = 0
+5) {?}.len == 5 && {?} != {3} ja {?} != 5 		=> {?} = 2
+6) {?}.len == 6 && {?} != {0} ja {?} != {9} 		=> {?} = 6
+
+
+
+all_segments = {str, str, str, str, ...}
+all_segments_numbers {2, 3, 0, 8, -1, -1 ...}
+
+
